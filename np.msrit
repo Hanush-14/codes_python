@@ -1,0 +1,42 @@
+import numpy as np
+a1=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+print("The array is :")
+print(a1)
+print("shape method")
+#using shape to find the shape 
+print(a1.shape)
+print("reshape method")
+#using reshape with 2 arguments pass
+print(a1.reshape(3,4))
+print("Using ravel function")
+#using ravel function
+a2=np.array([[1,2,3,4,5,6],[7,8,9,10,11,12]])
+a3=a2.ravel()
+print(a3)
+print("Using ravel function")
+#using flatten()
+a4=np.array([[1,2,3,4,5,6],[7,8,9,10,11,12]])
+a5=a4.ravel()
+print(a5)
+#Slicing 
+print("Extracting 2nd row using slicing")
+a6=np.array([1,2,3,
+	     4,5,6,
+	     7,8,9])
+#print(a6)
+print(a6[3:6])
+#Modify a sliced portion of an array
+#print("Modifying the value using copy")
+#a7=[10,11,12]
+#a8=copy(a6,a7)
+#print(a8)
+print("Reversing an array using slicing")
+print(a1[::-1])
+
+print("Extracting every alternate elemnt from a given array ")
+print(a1[1::2])
+
+print("Replacing the negative value with 0")
+arr=np.array([-1,1,-2,2,-3,3])
+new=np.where(arr>0,arr,0)
+print(new)
