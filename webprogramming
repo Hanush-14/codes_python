@@ -1,0 +1,81 @@
+//let n=parseFloat(prompt("Enter the value "))
+//window.alert(n)
+//document.write(n)
+
+
+//program to declare an array and print the array using for loop
+/*
+const num=[1,2,3,4,5]
+for(i=0;i<num.length;i++)
+{
+    document.writeln(num[i]);
+}
+*/
+
+//declare an array and print the array elements using foreach loop
+
+/*
+const num=[1,2,3,4,5]
+num.forEach((item)=>{
+    document.write(item);
+});
+*/
+
+//Create a array number and print the fibonacci series of it using for each loop 
+/*
+
+let n=5;
+
+
+if(n==0)
+{
+    document.write(0);
+}
+else if(n==1)
+{
+    document.write(1);
+}
+else{
+    document.write(0+" ");
+    document.write(1+" ")
+}
+let fib1=0;
+let fib2=1;
+
+for(i=2;i<=n;i++)
+{
+    fib3=fib1+fib2;
+    document.writeln(fib3+" ");
+    fib1=fib2;
+    fib2=fib3;
+
+}
+*/
+
+//Progarm to print the sum of numbers using for each loop
+
+/*
+const num=[1,2,3,4,5]
+let sum=0
+num.forEach((item)=>{
+    //document.write(item);
+    sum=sum+item;
+});
+
+document.write(sum);
+*/
+
+// Using the array.foreach() method to copy every element from one array to another
+
+/*
+let a=[1,2,3,4,5]
+
+let b=[]
+
+a.forEach((item)=>{
+    //document.write(item);
+    b.push(item);
+});
+
+document.write(b);
+*/
