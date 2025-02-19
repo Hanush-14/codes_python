@@ -79,3 +79,114 @@ a.forEach((item)=>{
 
 document.write(b);
 */
+
+
+
+//Progarm to print the sum of numbers using for each loop
+
+/*
+const num=[1,2,3,4,5]
+let sum=0
+num.forEach((item)=>{
+    //document.write(item);
+    sum=sum+item;
+});
+
+document.write(sum);
+*/
+
+// Using the array.foreach() method to copy every element from one array to another
+
+/*
+let a=[1,2,3,4,5]
+
+let b=[]
+
+a.forEach((item)=>{
+    //document.write(item);
+    b.push(item);
+});
+
+document.write(b);
+*/
+-----------------------------------------------------------------------------------------------------------------19/02/2025
+HTML code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <label for="num1">celsius:</label>
+    <input type="number"id="num1"><br>
+
+    <button onclick="cal('fa')">CELSIUS</button>
+    <h2>Result</h2>
+    <span id="result"></span>
+    <script src="j1.js"></script>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------
+
+// Program to develop arthematic operrator 
+/*
+function cal(ope)
+{
+    let num1=parseInt(document.getElementById("num1").value);
+    let num2=parseInt(document.getElementById("num2").value);
+
+    let result;
+    if(ope == 'add')
+        {
+            result =num1 + num2;
+        }
+    else if(ope == 'sub')
+        {
+            result =num1 - num2;
+        }
+    else if(ope == 'mul')
+        {
+            result =num1 * num2;
+        }
+    
+
+    document.getElementById("result").innerText=result;
+    //document.write(result);
+}
+*/
+
+// Progr4am to develop Java Script to convert temperature from Fhrenheit to Celsius and vice versa using get ElementById()
+/*
+function cal(ope)
+{
+    let num1=parseInt(document.getElementById("num1").value);
+
+    let result , result1;
+
+    if(ope == 'fa')
+        {
+            result=(num1*(9.0/5.0))+32;   
+        }
+    else if(ope == 'cel')
+        {
+            // To find the Fahrenheit
+            result1=(num1*(9.0/5.0))+32;
+            result=((5.0/9.0)*(result1-32));
+        }
+    
+
+
+    //result=(cel*(9.0/5.0))+3;
+    document.getElementById("result").innerText=result;
+}
+
+*/
+-------------------------------------------------------------------------------------------------------------------------------
+//Develop and design JavaScript to count total number of h2 and h3 tags used in document uisng getElementByTagName()
+
+
+//Find the product of two input numbers (use getElementById()to access user Input)
+
